@@ -22,7 +22,7 @@ async function getAnime(search=false, searchText="") {
                 score: data[i].score
             }])
         }
-    } if (!search) {
+    } else {
         const response = await axios.get(url);
         const data = response.data;
         for (let i = 0; i < data.length; i++) {
