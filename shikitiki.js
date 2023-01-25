@@ -1,6 +1,6 @@
 // ShikiTiki - Module for getting anime from shikimori.one
 
-// Copyright (c) 2022 Group Reflection
+// Copyright (c) 2023 Group Reflection
 
 const axios = require('axios');
 const animes = [];
