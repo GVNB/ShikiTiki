@@ -3,7 +3,7 @@
 // Copyright (c) 2023 Group Reflection
 
 const axios = require('axios');
-const animes = [];
+let animes = [];
 let page = 1
 let count = 20
 
